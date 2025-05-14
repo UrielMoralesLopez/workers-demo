@@ -15,7 +15,7 @@ function Home() {
     const headerRef = useRef(null);
 
     useEffect(() => {
-        fetch('/employees.json')
+        fetch(process.env.PUBLIC_URL + '/employees.json')
             .then(response => response.json())
             .then(data => {
                 const employeesWithDepartments = data.map(emp => ({
