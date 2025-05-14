@@ -1,0 +1,36 @@
+.search-container {
+  display: block;
+  margin-bottom: 1em;
+}
+
+@media screen and (min-width: 768px) {
+  .search-container {
+    margin-bottom: 0;
+  }
+}
+
+.search-container input {
+  border: none;
+  font-size: 18px;
+  padding: 0.6em;
+  background: none;
+  font-weight: bold;
+  color: var(--xxblack);
+  width: 100%;
+  outline: none !important;
+  box-shadow: none !important;
+  border: solid 1px var(--xxblack);
+  border-radius: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .search-container input {
+    font-size: 14px;
+  }
+}
+
+.search-container input:active,
+.search-container input:focus,
+.search-container input:focus-visible {
+  border: solid 1px var(--xxprimary);
+}

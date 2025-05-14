@@ -1,0 +1,12 @@
+.team-member-list .container {
+padding: 1em 0 !important;
+}
+
+.team-member-list .team-member-item p {
+    font-size: 10px;
+    font-weight: bold;
+    white-space: wrap;
+    max-width: 80px;
+    line-height: 14px;
+    margin-bottom: 0 !important;
+}

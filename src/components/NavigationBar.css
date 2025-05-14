@@ -1,0 +1,14 @@
+.logo-main {
+    display: block;
+    width: 100%;
+    max-width: 150px;
+    margin: 0 !important;
+}
+
+@media screen and (min-width: 768px) {
+    .logo-main {
+        display: block;
+        width: 100%;
+        max-width: 150px;
+    }
+}

@@ -1,0 +1,79 @@
+.btn {
+    display: block;
+    width: 100%;
+    /* max-width: 200px; */
+    padding: 0.8em;
+    font-size: 14px;
+    margin: 0 auto;
+    cursor: pointer;
+    border: none;
+    border-radius: 0;
+    transition: none !important;
+    font-weight: bold;
+    outline: none !important;
+    box-shadow: none !important;
+    position: relative;
+}
+
+.btn-xs {
+    font-size: 12px;
+}
+
+.btn-primary {
+    text-transform: uppercase;
+    color: var(--xxblack);
+    background-color: var(--xxprimary);
+    border: solid 2px var(--xxprimary);
+}
+
+.btn-primary:hover {
+    color: var(--xxblack) !important;
+    background-color: var(--xxprimary-active) !important;
+    border: solid 2px var(--xxprimary-active) !important;
+   
+}
+
+.btn-primary:focus,
+.btn-primary:focus-visible {
+    color: var(--xxblack) !important;
+    background-color: var(--xxprimary-active) !important;
+    border: solid 2px var(--xxsecondary) !important;
+}
+
+.btn-primary:active {
+    background-color: var(--xxblack) !important;
+    color: var(--xxwhite) !important;
+    border: solid 2px var(--xxblack) !important;
+}
+
+.btn-primary:disabled {
+    color: var(--xxdarkgrey) !important;
+    background-color: var(--xxgrey) !important;
+    border: solid 2px var(--xxgrey) !important;
+}
+
+.btn-copy {
+    text-transform: lowercase;
+    color: var(--xxblack);
+    background-color: var(--xxwhite);
+    border: solid 2px var(--xxwhite);
+}
+
+.btn-copy:hover {
+    color: var(--xxblack);
+    background-color: var(--xxprimary-active);
+    border: solid 2px var(--xxprimary-active);
+}
+
+.btn-copy:focus,
+.btn-copy:focus-visible {
+    color: var(--xxblack);
+    background-color: var(--xxprimary-active);
+    border: solid 2px var(--xxprimary-active);
+}
+
+.btn-copy:active {
+    color: var(--xxblack) !important;
+    background-color: var(--xxprimary-active)  !important;
+    border: solid 2px var(--xxprimary-active)  !important;
+}

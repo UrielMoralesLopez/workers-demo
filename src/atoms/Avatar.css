@@ -1,0 +1,51 @@
+.avatar {
+    height: auto;
+    margin: 0 auto;
+    border-radius: 100%;
+    cursor: pointer;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+
+  .avatar.xs {
+    width: 50px;
+    height: 50px;
+    margin: 0 1em;
+    border: solid 3px transparent;
+  }
+
+  .avatar:hover.xs {
+    border: solid 3px var(--xxprimary);
+  }
+  
+  .avatar.sm {
+    width: 125px;
+    height: 125px;
+    margin: 0 auto;
+    border: solid 4px transparent;
+    border-radius: 100%;
+    cursor: pointer;
+  }
+
+  .avatar.lg {
+    width: 100%;
+    max-width: 150px;
+    border: solid 6px var(--xxprimary);
+  }
+
+  @media screen and (min-width: 768px) {
+    .avatar:hover,
+    .avatar:focus,
+    .avatar:focus-visible,
+    .avatar:active {
+        border: solid 4px var(--xxprimary);
+        outline: none;
+    }
+
+    .avatar:hover,
+    .avatar:focus,
+    .avatar:focus-visible,
+    .avatar:active{
+        outline: none;
+    }
+}

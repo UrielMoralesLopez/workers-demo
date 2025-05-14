@@ -1,0 +1,16 @@
+.badge {
+    width: fit-content;
+    background-color: var(--xxgrey);
+    color: var(--xxblack);
+    border-radius: 25px;
+    margin: 0 auto;
+    font-size: 0.8em;
+    padding: 0.5em 1em;
+}
+
+@media screen and (min-width: 768px) {
+    .badge {
+        
+        margin: 0;
+    }
+}

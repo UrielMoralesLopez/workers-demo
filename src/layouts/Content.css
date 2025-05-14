@@ -1,0 +1,21 @@
+.content {
+    /* height: 100vh; */
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.container {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+.employee-list {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}

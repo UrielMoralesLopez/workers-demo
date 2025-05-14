@@ -1,0 +1,26 @@
+.fade-screen {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--xxwhite);
+    z-index: 98;
+    position: fixed;
+}
+
+.btn-scrollup {
+    z-index: 999;
+    position: fixed;
+    left: 95%;
+    top: 80%;
+}
+
+@media screen and (min-width: 768px) {
+    .fade-screen {
+        background-color: rgba(0,0,0,0.2);
+    }
+
+    .btn-scrollup {
+        left: 90%;
+        top: 90%;
+    }
+}

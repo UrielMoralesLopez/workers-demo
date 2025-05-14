@@ -1,0 +1,48 @@
+.btn-round {
+    display: block;
+    padding: 1.4em;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    cursor: pointer;
+    border: solid 2px var(--xxgreylight);
+    background-color: var(--xxgreylight);
+    outline: none !important;
+    box-shadow: none !important;
+    position: relative;
+}
+
+.btn-round:hover {
+    background-color: var(--xxgrey);
+    border: solid 2px var(--xxgrey);
+}
+
+.btn-round:focus,
+.btn-round:focus-visible {
+    background-color: var(--xxgreylight);
+    border: solid 2px var(--xxprimary);
+}
+
+.btn-round:active {
+    background-color: var(--xxprimary);
+    border: solid 2px var(--xxprimary);
+}
+
+.btn-round img {
+    display: block;
+    width: 100%;
+    max-width: 15px;
+}
+
+.btn-scrollup {
+    .btn-round {
+        background-color: var(--xxblack) !important;
+        border: solid 2px var(--xxblack);
+    }
+    .btn-round:hover,
+    .btn-round:focus,
+    .btn-round:focus-visible {
+        background-color: var(--xxprimary) !important;
+        border: solid 2px var(--xxprimary);
+    }
+} 

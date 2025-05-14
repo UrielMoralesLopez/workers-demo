@@ -1,0 +1,131 @@
+:root {
+  --xxblack: #000000;
+  --xxwhite: #ffffff;
+  --xxprimary: #23ded2;
+  --xxprimary-active: #4de7dd;
+  --xxsecondary: #710DF5;
+  --xxerrorcolor: #f533ee;
+  --xxgreylight: #f4f4f4;
+  --xxgrey: #cdcdcd;
+  --xxgreydark: #6f7174;
+}
+
+body {
+  background-color: var(--xxgreylight);
+}
+
+.App {
+  text-align: center;
+  background-color: var(--xxgreylight);
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0; 
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1.8em;
+}
+
+@media screen and (min-width: 768px) {
+  h4 {
+    font-size: 1.5em;
+  }
+}
+
+.element-show {
+  display: block !important
+}
+
+.element-hide {
+  display: none !important
+}
+
+.display-desktop {
+  display: none !important;
+}
+
+.display-mobile {
+  display: block !important;
+}
+
+@media screen and (min-width: 768px) {
+  .display-desktop {
+    display: block !important;
+  }
+
+  .display-mobile {
+    display: none !important;
+  }
+}
+
+.relative-position {
+  position: relative;
+}
+
+.absolute-position {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%)
+}
+
+.text-xxblack {
+  color: var(--xxblack);
+}
+
+.text-xxwhite {
+  color: var(--xxwhite);
+}
+
+.text-xxprimary {
+  color: var(--xxprimary);
+}
+
+.text-xxsecondary {
+  color: var(--xxsecondary);
+}
+
+.text-xxsgrey {
+  color: var(--xxsgrey);
+}
+
+.text-small {
+  font-size: 1em;
+}
+
+@media screen and (min-width: 768px) {
+  .text-small {
+    font-size: 0.8em;
+  }
+}
+
+.text-error {
+  color: var(--xxsecondary);
+}
+
+.text-left {
+  text-align: left;
+}
+
+.bg-xxblack {
+  background-color: var(--xxblack);
+}
+
+.bg-xxwhite {
+  background-color: var(--xxwhite);
+}
+
+.bg-xxgreylight {
+  background-color: var(--xxgreylight);
+}
+
+.horizontal-line {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: var(--xxblack);
+}

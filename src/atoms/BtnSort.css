@@ -1,0 +1,64 @@
+.btn-sort {
+    background-color: var(--xxgreylight);
+    border: solid 2px var(--xxgreylight);
+    color: var(--xxblack);
+    padding: 0.4em 1em;
+    font-size: 16px;
+    margin: 0.5em;
+    cursor: pointer;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+@media screen and (min-width: 768px) {
+    .btn-sort {
+      font-size: 12px;
+    }
+}
+
+.btn-sort:hover {
+    background-color: var(--xxprimary);
+    border: solid 2px var(--xxprimary);
+}
+
+.btn-sort:active {
+    background-color: var(--xxblack);
+    border: solid 2px var(--xxblack);
+    color: var(--xxwhite);
+}
+
+
+.btn-sort:focus,
+.btn-sort:focus-visible {
+    background-color: var(--xxgreylight);
+    border: solid 2px var(--xxprimary);
+}
+
+.btn-sort.asc:after {
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid var(--xxblack);
+    content: "";
+    position: relative;
+    top: 11px;
+    right: -4px;
+}
+  
+.btn-sort.desc:after {
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 4px solid var(--xxblack);
+    content: "";
+    position: relative;
+    top: -9px;
+    right: -4px;
+}
+
+.btn-sort:active.desc:after,
+.btn-sort:active.asc:after {
+    border-bottom: 4px solid var(--xxwhite);
+}

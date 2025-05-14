@@ -1,0 +1,40 @@
+.btn-filter {
+    background-color: var(--xxgreylight);
+    color: var(--xxblack);
+    border: solid 2px var(--xxgreylight);
+    padding: 0.4em 1em;
+    font-size: 14px;
+    margin: 0.5em;
+    border-radius: 25px;
+    cursor: pointer;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .btn-filter {
+        font-size: 12px;
+    }
+}
+  
+.btn-filter:hover {
+    background-color: var(--xxprimary);
+    border: solid 2px var(--xxprimary);
+}
+
+.btn-filter:focus,
+.btn-filter:focus-visible {
+    background-color: var(--xxgreylight);
+    border: solid 2px var(--xxprimary);
+}
+  
+.btn-filter.active {
+    background-color: var(--xxblack);
+    border: solid 2px var(--xxblack);
+    color: var(--xxwhite);
+}
+  
+.btn-filter p {
+    display: table-cell;
+    vertical-align: middle;
+}
