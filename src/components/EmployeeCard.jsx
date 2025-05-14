@@ -28,7 +28,7 @@ function EmployeeCard({ employee, dataDepartment, onClick }) {
             <div className="container bg-xxgreylight my-2 py-1">
               <div className="row py-2">
                 <div className="employee-card-group d-flex align-items-center justify-content-start">
-                  <img className="me-2" src="../images/icon_email.png" />
+                  <img className="me-2" src={`${process.env.PUBLIC_URL}../images/icon_email.png`} alt="Email Icon"/>
                   <p>Email</p>
                 </div>
               </div>
@@ -39,7 +39,7 @@ function EmployeeCard({ employee, dataDepartment, onClick }) {
             <div className="container bg-xxgreylight my-2 py-1">
               <div className="row py-2">
                 <div className="employee-card-group d-flex align-items-center justify-content-start">
-                  <img className="me-2" src="../images/icon_phone.png" />
+                  <img className="me-2" src={`${process.env.PUBLIC_URL}../images/icon_phone.png`} alt="Phone Icon" />
                   <p>Phone</p>
                 </div>
               </div>
